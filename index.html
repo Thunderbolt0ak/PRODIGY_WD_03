@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>TIC TAC TOE</h1>
+        <hr>
+        <div class="mode-container">
+            <button id="single" class="mode-button">Single Player</button>
+            <button id="multi" class="mode-button">Multiplayer</button>
+        </div>
+        <div class="turn-container">
+            <h3>Turn For</h3>
+            <div class="turn-box align">X</div>
+            <div class="turn-box align">O</div>
+            <div class="bg"></div>
+        </div> 
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <h2 id="results"></h2>
+        <button id="reset">Reset Game</button>
+        <button id="play-again">Play Again</button>
+        <script src="logic.js"></script>
+    </main>
+</body>
+</html>
